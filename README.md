@@ -55,3 +55,10 @@
  > |6종교통량|4|
  > |총교통량	|275|
 
+## 실패 로그  
+
+## Dataframe Shape
+### covid_data_analysis
+- covid_data (998, 17)
+- covid_data_new (998, 5)
+- 
