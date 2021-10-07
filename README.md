@@ -61,4 +61,15 @@
 ### covid_data_analysis
 - covid_data (998, 17)
 - covid_data_new (998, 5)
-- 
+- covid_data_1st_pandemic (60, 5)
+- covid_data_2nd_pandemic (61, 5)
+- covid_data_3rd-pandemic (119, 5)
+- covid_data_4th_pandemic (117, 5)
+### traffic_data_analysis
+- traffic_data (1789045, 11)
+- traffic_data_total (1276,10)
+- day_traffic_data_1st (7, )
+- day_traffic_data_remain (7, 5)
+- day_traffic_data_total (7, )
+- seoul_traffic_data (1276, 10)
+- daegu_traffic_data (1276, 10)
