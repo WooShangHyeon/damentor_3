@@ -12,9 +12,24 @@
 
 ## 데이터의 컬럼
 * 코로나 19 확진자 데이터 (Covid_case.csv)
- > |항목명(영문)|항목설명|샘플데이터|
+ > |항목설명|항목명(영문)|샘플데이터|
  > |-----|-----|-----|
- > |resultCode|결과코드|00|
- > |resultMsg|결과메시지|OK|
- > |numOfRows|한 페이지 결과 수|10|
- > |pageNo|페이지번호|1|
+ > |결과코드|	resultCode|00|
+ > |결과메시지|	resultMsg|OK|
+ > |한 페이지 결과 수|	numOfRows|10|
+ > |페이지 번호|	pageNo|1|
+ > |전체 결과 수|	totalCount|3|
+ > |게시글번호(감염현황 고유값)|SEQ|74|
+ > |기준일|STATE_DT|20200315|
+ > |기준시간|STATE_TIME|00 : 99|
+ > |확진자 수|DECIDE_CNT|8162|
+ > |격리해제 수|CLEAR_CNT|834|
+ > |검사진행 수|EXAM_CNT|16272|
+ > |사망자 수|DEATH_CNT|75|
+ > |치료중 환자 수|CARE_CNT|7253|
+ > |결과 음성 수|RESUTL_NEG_CNT|243778|
+ > |누적 검사 수|ACC_EXAM_CNT|268212|
+ > |누적 검사 완료 수|ACC_EXAM_COMP_CNT|251940|
+ > |누적 확진률|ACC_DEF_RATE|3.2396602365|
+ > |등록일시분초|CREATE_DT|2020-03-15 10:01:22.000|
+ > |수정일시분초|UPDATE_DT|null|
