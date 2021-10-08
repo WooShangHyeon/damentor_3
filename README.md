@@ -20,7 +20,8 @@
 > 코로나 19 확진자 데이터 출처 : [공공데이터포털](https://www.data.go.kr/index.do)  
 > 교통량 데이터 출처 : [한국 도로공사_고속도로 공공데이터 포털](http://data.ex.co.kr/)
 
-### 데이터의 컬럼
+### Raw Data
+#### 데이터의 컬럼
 * 코로나 19 확진자 데이터 (Covid_case.csv)
  > |항목설명|항목명(영문)|샘플데이터|
  > |-----|-----|-----|
@@ -66,15 +67,15 @@
  > |6종교통량|4|
  > |총교통량	|275|
 
-### Dataframe Shape
-#### covid_data_analysis
+#### Dataframe Shape
+##### covid_data_analysis
 - covid_data (998, 17)
 - covid_data_new (998, 5)
 - covid_data_1st_pandemic (60, 5)
 - covid_data_2nd_pandemic (61, 5)
 - covid_data_3rd-pandemic (119, 5)
 - covid_data_4th_pandemic (117, 5)
-#### traffic_data_analysis
+##### traffic_data_analysis
 - traffic_data (1789045, 11)
 - traffic_data_total (1276,10)
 - day_traffic_data_1st (7, )
@@ -82,5 +83,10 @@
 - day_traffic_data_total (7, )
 - seoul_traffic_data (1276, 10)
 - daegu_traffic_data (1276, 10)
+
+### Used Data
+#### covid_data_new
+
+
 
 ## 실패 로그  
