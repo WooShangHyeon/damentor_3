@@ -4,8 +4,13 @@
 
 ## 목차
 1. [프로젝트 계획 이유](#프로젝트-계획-이유)
-2. [데이터](#데이터)
- 1) 
+2. [데이터](#데이터)  
+ 2-1. [Raw Data](#Raw-Data)  
+ 　(1) [데이터 출처](#데이터-출처)  
+ 　(2) [데이터의 컬럼](#데이터의-컬럼)  
+ 　(3) [Dataframe Shape](#Dataframe-Shape)  
+ 2-2. [Used Data](#Used-Data)
+3. [실패로그](#실패-로그)  
 ----
 ### 프로젝트 계획 이유
 > 코로나19 발병 이후 2020~2021년, 2년간 총 4차례의 대 유행이 일어났다. 현재 코로나19 4차 대 유행 이후 거리 두기 단계를 4단계로 올렸음에도 불구하고 확진자 수가 줄어들 기미가 보이지 않고, 주변 지인 중에는 휴가를 떠난다는 사람들 또한 늘어나고 있다. 이러한 이유로 우리 '삼현텍'은 고속도로와 톨게이트 통행량 데이터와 코로나19 확진자 수에 따른 이동량 변화의 상관관계를 분석하려 한다. 
@@ -17,7 +22,8 @@
 > 코로나 19 확진자 데이터 출처 : [공공데이터포털](https://www.data.go.kr/index.do)  
 > 교통량 데이터 출처 : [한국 도로공사_고속도로 공공데이터 포털](http://data.ex.co.kr/)
 
-### 데이터의 컬럼
+### Raw Data
+#### 데이터의 컬럼
 * 코로나 19 확진자 데이터 (Covid_case.csv)
  > |항목설명|항목명(영문)|샘플데이터|
  > |-----|-----|-----|
@@ -63,17 +69,15 @@
  > |6종교통량|4|
  > |총교통량	|275|
 
-## 실패 로그  
-
-## Dataframe Shape
-### covid_data_analysis
+#### Dataframe Shape
+##### covid_data_analysis
 - covid_data (998, 17)
 - covid_data_new (998, 5)
 - covid_data_1st_pandemic (60, 5)
 - covid_data_2nd_pandemic (61, 5)
 - covid_data_3rd-pandemic (119, 5)
 - covid_data_4th_pandemic (117, 5)
-### traffic_data_analysis
+##### traffic_data_analysis
 - traffic_data (1789045, 11)
 - traffic_data_total (1276,10)
 - day_traffic_data_1st (7, )
@@ -81,3 +85,10 @@
 - day_traffic_data_total (7, )
 - seoul_traffic_data (1276, 10)
 - daegu_traffic_data (1276, 10)
+
+### Used Data
+#### covid_data_new
+
+
+
+## 실패 로그  
