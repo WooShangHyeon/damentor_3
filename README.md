@@ -90,9 +90,10 @@
 - daegu_traffic_data (1276, 10)
 
 ### Used Data
-#### covid_data_new
-#### traffic_data
-
+#### covid_data_new : ex
+#### traffic_data : 
+#### traffic_data_total : 
 
 
 ## 실패 로그  
+### 교통량 데이터 예측 : 해당 데이터는 시계열 데이터로 시간에 흐름을 반영하는 LSTM 으로 모델 구성을 진행했으나 모델 이해도가 높지 않아 그리 좋은 결과를 내지 못함
