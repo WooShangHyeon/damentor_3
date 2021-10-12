@@ -89,8 +89,16 @@
 - seoul_traffic_data (1276, 10)
 - daegu_traffic_data (1276, 10)
 
-#### 
+#### code explain
 
+- Categorize corona probability_LHJ.ipynb : unit단위로 나눈 코로나 확진자에 따른 교통량 변화 분석 
+- Jan,Feb,May_covid_traffic_data_Woo.ipynb : 명절과 연휴기간 코로나 확진자 수와 교통량 데이터에 대한 분석
+- covid_data_analysis.ipynb : 코로나 데이터 정리
+- covid_traffic_7_8.ipynb : 휴가철 코로나 확진자 수와 교통량 데이터에 대한 분석 
+- covid_traffic_analysis.ipynb : 총 코로나 데이터와 확진자 수에 대한 분석
+- predict_traffic_cmp_colab.ipynb : 2020년 2021년 교통량 데이터 예측
+- traffic_data_analysis.ipynb : 교통량 데이터 정리
+- SamhyeonTech_Covid19_Traffic_Project.ipynb : 분석 총 정리.
 
 
 ## 실패 로그  
